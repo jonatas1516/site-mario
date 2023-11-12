@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.principal {
+  width: 40%;
+}
+
+.img-logo {
+  width: 300px;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.sub-text {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.btn {
+  background: #c51111;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.btn:hover {
+  opacity: 90%;
+}
+
+.btn:active {
+  transition: 0.3s;
+}
+
+.img-marioLuigi {
+  height: 600px;
+}
+
+.video-mario {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.video {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.mascara-video {
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.mask-form {
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+  z-index: 3;
+}
+
+.formulario {
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: -340px;
+  padding: 20px;
+  position: fixed;
+  top: 20%;
+  transition: left 1s linear;
+  z-index: 4;
+}
+
+.input-form {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 40px;
+  outline-color: chartreuse;
+  padding-left: 10px;
+}
+
+.formulario textarea {
+  height: 80px;
+  padding-top: 10px;
+  width: 300px;
+}
