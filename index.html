@@ -39,14 +39,16 @@
   </section>
 
   <section class="mask-form">
+    <!-- substituir "your@email.com", por um email valido
+    action="https://formsubmit.co/your@email.com" method="POST"-->
     <form class="formulario">
       <p>Fale Conosco</p>
 
-      <input type="text" class="input-form" placeholder="Digite seu nome">
+      <input type="text" class="input-form" placeholder="Digite seu nome" name="nome">
 
-      <input type="email" class="input-form" placeholder="Digite seu número">
+      <input type="email" class="input-form" placeholder="Digite seu número" name="telefone">
 
-      <textarea class="input-form" placeholder="Digite sua mensagem"></textarea>
+      <textarea class="input-form" placeholder="Digite sua mensagem" name="mensagem"></textarea>
 
       <button onclick="sumirForm()" class="btn">Enviar Mensagem</button>
     </form>
