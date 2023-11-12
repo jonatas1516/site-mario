@@ -14,6 +14,7 @@ body {
   justify-content: space-evenly;
 }
 
+/*SECTION PRINCIPAL*/
 .principal {
   width: 40%;
 }
@@ -51,12 +52,14 @@ body {
 
 .btn:active {
   transition: 0.3s;
-}
+} /*END PRINCIPAL*/
 
+/*SECTION IMG MARIO*/
 .img-marioLuigi {
   height: 600px;
-}
+} /*END IMG MARIO*/
 
+/*SECTION VIDEO*/
 .video-mario {
   height: 100%;
   position: fixed;
@@ -83,8 +86,9 @@ body {
   min-width: 100%;
   position: fixed;
   top: 0;
-}
+} /*END VIDEO*/
 
+/*SECTION FORM*/
 .mask-form {
   background: linear-gradient(
     109deg,
@@ -126,4 +130,4 @@ body {
   height: 80px;
   padding-top: 10px;
   width: 300px;
-}
+} /*END FORM*/
